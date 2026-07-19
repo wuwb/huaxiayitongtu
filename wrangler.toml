@@ -1,0 +1,10 @@
+name = "ancient-map"
+pages_build_output_dir = "dist"
+compatibility_date = "2024-09-23"
+
+# D1 数据库绑定（与 Pages Functions 共用）
+[[d1_databases]]
+binding = "DB"
+database_name = "ancient_map"
+# 执行 `wrangler d1 create ancient_map` 后，把输出的 id 填到这里
+database_id = "REPLACE_WITH_YOUR_D1_ID"
