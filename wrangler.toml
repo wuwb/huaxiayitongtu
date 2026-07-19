@@ -1,0 +1,10 @@
+name = "huaxiayitongtu"
+pages_build_output_dir = "dist"
+compatibility_date = "2024-09-23"
+
+# D1 数据库绑定（与 Pages Functions 共用）
+[[d1_databases]]
+binding = "DB"
+database_name = "ancient_map"
+# 执行 `wrangler d1 create ancient_map` 后，把输出的 id 填到这里
+database_id = "19dc6cd6-0763-4720-a393-f5788d3a51a9"
